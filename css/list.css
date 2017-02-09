@@ -1,0 +1,44 @@
+.list-card.mdl-card {
+    width: 320px;
+    margin: 15px;
+    /*height: 320px;*/
+    height: unset;
+    min-height: unset;
+}
+.list-card > .mdl-card__title {
+    color: #fff;
+    background-color: #ff3500;
+    /*background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*/
+}
+
+#list {
+    display: inline-block;
+    /*display: flex;*/
+    vertical-align: text-top;
+    /*width: 77%;*/
+    /*max-width: calc(100% - 400px);*/
+    padding: 20px;
+}
+
+#list_found {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-around;*/
+}
+
+/*#list_found:after {*/
+    /*content: "";*/
+    /*flex: auto;*/
+/*}*/
+
+.list-card {
+    display: inline-block;
+}
+
+.list-card .mdl-card__menu a {
+    color: white;
+}
+
+a.mdl-button {
+    margin-left: 15px;
+}

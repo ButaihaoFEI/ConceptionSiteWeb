@@ -1,0 +1,44 @@
+body{
+	background-color: #b0e6f8;
+}
+
+footer{
+	background: black;
+	position:fixed;
+    /*bottom:10px;	*/
+    bottom: 0;
+    text-align: center;
+    color:white;
+    z-index: 9999;
+    width: 100%;
+    padding: 2% 0;
+}
+
+#navigation {
+    right: 0;
+    line-height: 77px;
+    padding-right: 20px;
+    text-align: right;
+    float: right;
+}
+
+#navigation a {
+    color: white!important;
+}
+
+header {
+    background-color: black;
+}
+
+.msg-box {
+    z-index: 1337;
+    color: #000;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #ffb323;
+    border: 1px solid #b57a21;
+    cursor: pointer;
+}

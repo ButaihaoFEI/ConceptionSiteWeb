@@ -1,0 +1,47 @@
+-- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+--
+-- Host: localhost    Database: bddgr1004
+-- ------------------------------------------------------
+-- Server version	5.5.45
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `objet`
+--
+
+LOCK TABLES `objet` WRITE;
+/*!40000 ALTER TABLE `objet` DISABLE KEYS */;
+INSERT INTO `objet` (`nom`,`couleur`,`etat`,`date_ajout`) VALUES ('iPhone 7','Noir de jais',0000000000,'2016-11-23 00:38:49'),('PC Portable','Rose',0000000000,'2016-11-23 00:40:04');
+/*!40000 ALTER TABLE `objet` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `utilisateur`
+--
+
+LOCK TABLES `utilisateur` WRITE;
+/*!40000 ALTER TABLE `utilisateur` DISABLE KEYS */;
+INSERT INTO `utilisateur` (`email`,`motdepasse`,`droits`) VALUES ('eleve1@esigelec.fr','$2y$10$mXSNgjdSzaBYEdVy1HN3B.6V6odLV/rVIY7Fe626pvAOzoEpxikry',0000000000),('eleve2@esigelec.fr','$2y$10$b0lmdTOgPiCethNLrKdSw.3U0OPbxvx/tgAyuR63BkDy5u7Qw4cVS',0000000000),('gestionnaire@esigelec.fr','$2y$10$1B6VnVvJfYOERm4ykz4oz.4l45iD7bu.oNKdK.DhcgC.Quc7bmOU6',0000000002),('administratif1@esigelec.fr','$2y$10$2375Fba7gsZWvT0Y84WfpeX0H0BkzrF/3GEzMugIalg9ivfu3a..O',0000000001),('administratif2@esigelec.fr','$2y$10$wePCCYsq1WY2f9eBKcIrIel7zVzz0up/Vd5Wa5PJCOdX0lvfzzakW',0000000001);
+/*!40000 ALTER TABLE `utilisateur` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-11-22 22:44:18
